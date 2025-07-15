@@ -66,7 +66,7 @@ pipeline{
                         gcloud run deploy ml-project \
                              --image=gcr.io/${GCP_PROJECT}/course-testing/ml-project:latest \
                              --platform=managed \
-                             --region=us-central-1 \
+                             --region=us-central1 \
                              --allow=unauthenticated
 
 
